@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./spinner.component.sass']
 })
 export class SpinnerComponent implements OnInit {
-
+  color = 'primary';
+  mode = 'determinate';
+  value = 50;
+  bufferValue = 75;
   constructor() { }
 
   ngOnInit() {
